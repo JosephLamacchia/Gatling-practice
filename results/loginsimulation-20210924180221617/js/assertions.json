@@ -1,0 +1,10 @@
+{
+  "simulation": "LoginSimulation",
+  "simulationId": "loginsimulation",
+  "start": 1632506541617,
+  "description": "trying different user loaders",
+  "scenarios": ["LoginSimulation"],
+  "assertions": [
+
+  ]
+}

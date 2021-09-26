@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="inc_compile">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/target/inc_compile.zip!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

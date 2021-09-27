@@ -8,7 +8,7 @@ pipeline {
         }
         stage("Run Gatling") {
             steps {
-                sh 'mvn gatling:test -Dgatling.simulationClass=C:/Users/josep/IdeaProjects/Gatling-practice/gatlingjenkinspractice/src/test/scala/simulations/gatlingjenkinstestsim.scala -e'
+                sh 'mvn gatling:test -Dgatling.simulationClass=C:/Users/josep/IdeaProjects/Gatling-practice/gatlingjenkinspractice/src/test/scala/simulations/gatingjenkinstestsim.scala -e'
             }
             post {
                 always {

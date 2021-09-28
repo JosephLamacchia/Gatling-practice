@@ -13,6 +13,8 @@
 
     <gatling.version>3.6.1</gatling.version>
     <gatling-maven-plugin.version>3.1.2</gatling-maven-plugin.version>
+           
+     <gatling.simulation>simulations/gatingjenkinstestsim.scala</gatling.simulation>
   </properties>
 
   <dependencies>
@@ -40,6 +42,15 @@
         <groupId>io.gatling</groupId>
         <artifactId>gatling-maven-plugin</artifactId>
         <version>${gatling-maven-plugin.version}</version>
+               
+               <executions>
+					<execution>
+						<phase>compile</phase>
+						<goals>
+							<goal>execute</goal>
+						</goals>
+					</execution>
+				</executions>
       </plugin>
     </plugins>
   </build>

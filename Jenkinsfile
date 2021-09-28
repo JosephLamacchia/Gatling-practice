@@ -8,7 +8,7 @@ pipeline {
         }
         stage("Run Gatling") {
             steps {
-                sh 'mvn gatling:test -e'
+                sh 'mvn gatling:test -X'
             }
             post {
                 always {

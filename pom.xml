@@ -42,15 +42,7 @@
         <groupId>io.gatling</groupId>
         <artifactId>gatling-maven-plugin</artifactId>
         <version>${gatling-maven-plugin.version}</version>
-               
-               <executions>
-					<execution>
-						<phase>compile</phase>
-						<goals>
-							<goal>execute</goal>
-						</goals>
-					</execution>
-				</executions>
+           
       </plugin>
     </plugins>
   </build>

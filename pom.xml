@@ -12,7 +12,7 @@
     <encoding>UTF-8</encoding>
 
     <gatling.version>3.6.1</gatling.version>
-    <gatling-maven-plugin.version>3.1.2</gatling-maven-plugin.version>
+    <gatling-maven-plugin.version>3.8.2</gatling-maven-plugin.version>
            
      <gatling.simulation>simulations/gatingjenkinstestsim.scala</gatling.simulation>
   </properties>

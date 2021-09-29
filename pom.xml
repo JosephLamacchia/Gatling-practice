@@ -14,7 +14,6 @@
     <gatling.version>3.6.1</gatling.version>
     <gatling-maven-plugin.version>3.8.1</gatling-maven-plugin.version>
            
-     <gatling.simulation>simulations/gatingjenkinstestsim.scala</gatling.simulation>
   </properties>
 
   <dependencies>
@@ -36,7 +35,7 @@
   </dependencies>
 
   <build>
-    <testSourceDirectory>src/test/scala</testSourceDirectory>
+    <testSourceDirectory>src/test/scala/simulations</testSourceDirectory>
     <plugins>
       <plugin>
         <groupId>io.gatling</groupId>
